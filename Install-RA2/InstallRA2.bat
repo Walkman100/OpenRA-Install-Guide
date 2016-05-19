@@ -18,38 +18,33 @@ REM download & build RA2
     git clone https://github.com/OpenRA/ra2
     cd ra2
     
-    git checkout 51b5e6ff4f3e831f461f8a81306e55bf255ea380
+    git checkout 6544d26c4a38d090b75d37f6d190b64b5c9e258c
     REM checkout latest commit at time of writing so future builds use the same version
     
-    echo.
-    echo Copy and paste the following into the console prompt:
-    echo %~dp0OpenRA
-    echo.
-    cmd /c make dependencies
-    
+    cmd /c make dependencies "%~dp0OpenRA"
     xcopy "OpenRA.Mods.RA2\dependencies\*" "..\OpenRA" /E /I /Y
     cmd /c make all
 
 REM build done, now copy files
     set OutDir="%USERPROFILE%\Documents\OpenRA\mods\ra2"
-    xcopy audio %OutDir%\audio /E /I
-    xcopy bits %OutDir%\bits /E /I
-    xcopy chrome %OutDir%\chrome /E /I
-    xcopy languages %OutDir%\languages /E /I
-    xcopy maps %OutDir%\maps /E /I
-    xcopy rules %OutDir%\rules /E /I
-    xcopy sequences %OutDir%\sequences /E /I
-    xcopy tilesets %OutDir%\tilesets /E /I
-    xcopy uibits %OutDir%\uibits /E /I
-    xcopy weapons %OutDir%\weapons /E /I
-    xcopy chrome.yaml %OutDir%
-    xcopy cursors.yaml %OutDir%
-    xcopy logo.png %OutDir%
-    xcopy metrics.yaml %OutDir%
-    xcopy mod.yaml %OutDir%
-    xcopy preview.png %OutDir%
-    xcopy weapons.yaml %OutDir%
-    xcopy OpenRA.Mods.RA2.dll %OutDir%
+    xcopy audio %OutDir%\audio /Y /E /I
+    xcopy bits %OutDir%\bits /Y /E /I
+    xcopy chrome %OutDir%\chrome /Y /E /I
+    xcopy languages %OutDir%\languages /Y /E /I
+    xcopy maps %OutDir%\maps /Y /E /I
+    xcopy rules %OutDir%\rules /Y /E /I
+    xcopy sequences %OutDir%\sequences /Y /E /I
+    xcopy tilesets %OutDir%\tilesets /Y /E /I
+    xcopy uibits %OutDir%\uibits /Y /E /I
+    xcopy weapons %OutDir%\weapons /Y /E /I
+    xcopy chrome.yaml %OutDir% /Y
+    xcopy cursors.yaml %OutDir% /Y
+    xcopy logo.png %OutDir% /Y
+    xcopy metrics.yaml %OutDir% /Y
+    xcopy mod.yaml %OutDir% /Y
+    xcopy preview.png %OutDir% /Y
+    xcopy weapons.yaml %OutDir% /Y
+    xcopy OpenRA.Mods.RA2.dll %OutDir% /Y
 
 explorer /select, %~dp0OpenRA\OpenRA.exe
 timeout /t 2
