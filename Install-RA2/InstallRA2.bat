@@ -3,19 +3,23 @@ REM download & build OpenRA
     git clone https://github.com/OpenRA/OpenRA
     cd OpenRA
     
-    REM git checkout master
+    REM  git checkout master
     REM master branch crashes as the mod is loading
     git checkout b4664d1ec59f37714522268caf55203e96c7fb19
     REM checkout latest commit at time of writing so future builds use the same version
     
     cmd /c make dependencies
     cmd /c make all
-    REM cmd /c make version
+    REM  cmd /c make version
+    REM since the mod doesn't have a make version command
     cd ..
 
 REM download & build RA2
     git clone https://github.com/OpenRA/ra2
     cd ra2
+    
+    git checkout 10bce36a8ee4f6f761caad9ddeb50d9ae314803e
+    REM checkout latest commit at time of writing so future builds use the same version
     
     echo.
     echo Copy and paste the following into the console prompt:
