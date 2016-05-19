@@ -18,7 +18,7 @@ REM download & build RA2
     git clone https://github.com/OpenRA/ra2
     cd ra2
     
-    git checkout 10bce36a8ee4f6f761caad9ddeb50d9ae314803e
+    git checkout 51b5e6ff4f3e831f461f8a81306e55bf255ea380
     REM checkout latest commit at time of writing so future builds use the same version
     
     echo.
@@ -50,4 +50,8 @@ REM build done, now copy files
     xcopy preview.png %OutDir%
     xcopy weapons.yaml %OutDir%
     xcopy OpenRA.Mods.RA2.dll %OutDir%
+
 explorer /select, %~dp0OpenRA\OpenRA.exe
+timeout /t 2
+echo msgbox "To play with the RA2 mod, use the executable selected", vbOk+vbInformation, "Instructions" > %temp%\msgbox.tmp.vbs
+start wscript %temp%\msgbox.tmp.vbs //Nologo
