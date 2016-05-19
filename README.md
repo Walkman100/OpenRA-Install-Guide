@@ -2,12 +2,17 @@
 A complete installation guide without installing from discs including
 the music missing from the OpenRA Dune mod
 
+If you have any of the original discs or have disc images, there is
+a guide [here](https://github.com/OpenRA/OpenRA/wiki/Game-Content) on how to install
+the assets manually, aulthough selecting `Use CD` when you install
+the mods should automatically use the disc contents.
+
 ## Downloading available assets
 - Most of the game files (other than movies) can be downloaded
 straight from within OpenRA itself, so you'd want to install OpenRA first:
 - http://www.openra.net/download
 - Once that has installed, install all 3 mods by choosing them from the mod installation menu
-(click <kbd>Install Assets</kbd>) then choosing <kbd>Download</kbd>.
+(click <kbd>Install Assets</kbd>) then choose <kbd>Download</kbd>.
 - After installing all 3 mods, you can install the music for the RA and TD mods automatically:
   - Load up the mod, go to the menu `Extras` then `Music`
   - Click the <kbd>Install music</kbd> button, then <kbd>Download</kbd>
@@ -38,6 +43,7 @@ Mac OSX:
 
 The folder you will want when installing assets is the `Content` subfolder,
 this has a folder for each mod (`cnc`, `d2k`, `ra`) with the mod assets contained.
+
 In a portable installation (Windows), the folder path will be
 `%ProgramFiles%\OpenRA` with a `Support` subfolder instead of `Content`.
 
