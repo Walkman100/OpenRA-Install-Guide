@@ -5,7 +5,7 @@ REM download & build OpenRA
     
     REM  git checkout master
     REM master branch crashes as the mod is loading
-    git checkout b6afc765b4be0b0289471c25c450d79eb948d3d3
+    git checkout 629f17b4300902924fca5f8a02ecb6ec0c3731b4
     REM checkout latest commit at time of writing so future builds use the same version
     
     cmd /c make dependencies
@@ -18,7 +18,7 @@ REM download & build RA2
     git clone https://github.com/OpenRA/ra2
     cd ra2
     
-    git checkout a1b6dd03109e00515cff9658a91dbe09d9fde0dd
+    git checkout 549eec75f9a6d862fe150431c98abfc78f73c265
     REM checkout latest commit at time of writing so future builds use the same version
     
     cmd /c make dependencies "%~dp0OpenRA"
