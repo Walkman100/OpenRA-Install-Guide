@@ -4,7 +4,7 @@ the music missing from the OpenRA Dune mod
 
 If you have any of the original discs or have disc images, there is
 a guide [here](https://github.com/OpenRA/OpenRA/wiki/Game-Content) on how to install
-the assets manually, aulthough selecting `Use CD` when you install
+the assets manually, although selecting `Use CD` when you install
 the mods should automatically use the disc contents.
 
 ## Downloading available assets
@@ -27,6 +27,11 @@ You can still get the zip containing the music from their servers at
 This archive needs to be extracted to the `d2k` mod folder
 (see [folder paths](#folder-paths) section), so that the `*.AUD` files end up in the `Music` folder.
 
+If you download this repo, you can use the scripts in [Install-D2K-Music](Install-D2K-Music) to extract `d2k-music.zip` to the right place:
+- Windows: run `install.bat`
+- Linux: run `bash install.sh`
+- Mac: Double-click on `d2k-music.zip` in Finder, then drag the resulting `Music` folder to the `Mac-Drag-Here` alias
+
 ## Folder Paths
 The path for the OpenRA folder differs per operating system,
 but they are always (unless a portable installation is used)
@@ -48,4 +53,4 @@ In a portable installation (Windows), the folder path will be
 `%ProgramFiles%\OpenRA` with a `Support` subfolder instead of `Content`.
 
 ## Game Movies/Cinematics
-See [#1](https://github.com/Walkman100/OpenRA-Install-Guide/issues/1) for progress.
+See [Install-Movies/ReadMe.md](Install-Movies#tiberium-dawn)
