@@ -5,6 +5,7 @@
 ## Red Alert
 - download [iran.cnc-comm.com/ra/PortableRA videos setup.exe](http://iran.cnc-comm.com/ra/PortableRA videos setup.exe)
 - run it, set the extract location to `C:\Users\YOUR_NAME\Documents\OpenRA\Content\ra`, replacing `YOUR_NAME` with your user account name.
+- Linux users, thankfully it seems to run fine on WinE: `wine start /unix "PortableRA videos setup.exe"`, and set it to extract to `Z:\home\USERNAME\.openra\Content\ra` rather.
 
 ## Dune 2000
 - Download the torrent at https://gruntmods.com/download/911/, see [#1](https://github.com/Walkman100/OpenRA-Install-Guide/issues/1#issuecomment-222339414) for info
