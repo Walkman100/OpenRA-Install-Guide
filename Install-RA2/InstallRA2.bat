@@ -26,7 +26,7 @@ REM download & build RA2
     cmd /c make all
 
 REM build done, now copy files
-    set OutDir="%USERPROFILE%\Documents\OpenRA\mods\ra2"
+    set OutDir="%~dp0OpenRA\mods\ra2"
     xcopy audio %OutDir%\audio /Y /E /I
     xcopy bits %OutDir%\bits /Y /E /I
     xcopy chrome %OutDir%\chrome /Y /E /I
@@ -45,6 +45,8 @@ REM build done, now copy files
     xcopy preview.png %OutDir% /Y
     xcopy weapons.yaml %OutDir% /Y
     xcopy OpenRA.Mods.RA2.dll %OutDir% /Y
+
+del /Q "%~dp0OpenRA\mods\cnc"
 
 explorer /select, %~dp0OpenRA\OpenRA.exe
 timeout /t 2
