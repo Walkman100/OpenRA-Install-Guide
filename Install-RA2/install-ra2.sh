@@ -36,26 +36,20 @@
 
 # build done, now copy files
     OutDir=$OpenRADir/mods/ra2
-#     cp audio $OutDir/audio /Y /E /I
-#     cp bits $OutDir/bits /Y /E /I
-#     cp chrome $OutDir/chrome /Y /E /I
-#     cp languages $OutDir/languages /Y /E /I
-#     cp maps $OutDir/maps /Y /E /I
-#     cp rules $OutDir/rules /Y /E /I
-#     cp sequences $OutDir/sequences /Y /E /I
-#     cp tilesets $OutDir/tilesets /Y /E /I
-#     cp uibits $OutDir/uibits /Y /E /I
-#     cp weapons $OutDir/weapons /Y /E /I
-#     cp chrome.yaml $OutDir /Y
-#     cp cursors.yaml $OutDir /Y
-#     cp logo.png $OutDir /Y
-#     cp metrics.yaml $OutDir /Y
-#     cp mod.yaml $OutDir /Y
-#     cp preview.png $OutDir /Y
-#     cp weapons.yaml $OutDir /Y
-#     cp OpenRA.Mods.RA2.dll $OutDir /Y
+    mkdir -p $OutDir
+    cp -r audio $OutDir/audio
+    cp -r bits $OutDir/bits
+    cp -r chrome $OutDir/chrome
+    cp -r languages $OutDir/languages
+    cp -r maps $OutDir/maps
+    cp -r rules $OutDir/rules
+    cp -r sequences $OutDir/sequences
+    cp -r tilesets $OutDir/tilesets
+    cp -r uibits $OutDir/uibits
+    cp -r weapons $OutDir/weapons
+    cp chrome.yaml cursors.yaml logo.png metrics.yaml mod.yaml preview.png weapons.yaml OpenRA.Mods.RA2.dll $OutDir
 
-# rm -r "../OpenRA/mods/cnc"
+rm -r "../OpenRA/mods/cnc"
 
-# echo "To play with the RA2 mod, use: $(dirname $(pwd))/OpenRA/OpenRA.exe"
+echo "To play with the RA2 mod, use: $OpenRADir/launch-game.sh"
 # xdg-open $(dirname $(pwd))/OpenRA
