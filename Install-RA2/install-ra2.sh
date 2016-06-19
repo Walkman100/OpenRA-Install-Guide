@@ -3,10 +3,8 @@
     git clone https://github.com/OpenRA/OpenRA
     cd OpenRA
     
-    #  git checkout master
-    # master branch crashes as the mod is loading
     git checkout 9f8261514a9717b0c26ca474d6acce0e20a01e9a
-    # checkout latest commit at time of writing so future builds use the same version
+    # checkout tested working code so future builds use the same version
     
     make dependencies
     make all
@@ -19,7 +17,7 @@
     cd ra2
     
     git checkout 549eec75f9a6d862fe150431c98abfc78f73c265
-    # checkout latest commit at time of writing so future builds use the same version
+    # checkout tested working code so future builds use the same version
 
     OpenRADir=$(dirname "$(pwd)")/OpenRA
     # Following https://github.com/OpenRA/ra2/wiki/Step-by-Step#unix
@@ -51,5 +49,5 @@
 
 rm -r "../OpenRA/mods/cnc"
 
-echo "To play with the RA2 mod, use: \"$OpenRADir/launch-game.sh\""
+echo "To play with the RA2 mod, use: \"./launch-game.sh\" from: \"$OpenRADir\""
 # xdg-open $(dirname $(pwd))/OpenRA
