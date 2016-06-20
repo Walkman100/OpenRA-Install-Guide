@@ -3,7 +3,7 @@
     git clone https://github.com/OpenRA/OpenRA
     cd OpenRA
     
-    git checkout 9f8261514a9717b0c26ca474d6acce0e20a01e9a
+    git checkout 2d21d6aad2fa75ebf9af71108e9877cffc4e856d
     # checkout tested working code so future builds use the same version
     
     make dependencies
@@ -16,7 +16,7 @@
     git clone https://github.com/OpenRA/ra2
     cd ra2
     
-    git checkout 549eec75f9a6d862fe150431c98abfc78f73c265
+    git checkout 2b168175e34ed647d4004e89a5207ca491dfe1c6
     # checkout tested working code so future builds use the same version
 
     OpenRADir=$(dirname "$(pwd)")/OpenRA
@@ -45,7 +45,7 @@
     cp -r tilesets "$OutDir/tilesets"
     cp -r uibits "$OutDir/uibits"
     cp -r weapons "$OutDir/weapons"
-    cp chrome.yaml cursors.yaml logo.png metrics.yaml mod.yaml preview.png weapons.yaml OpenRA.Mods.RA2.dll "$OutDir"
+    cp chrome.yaml cursors.yaml logo.png metrics.yaml mod.yaml preview.png weapons.yaml OpenRA.Mods.RA2/bin/Debug/OpenRA.Mods.RA2.dll "$OutDir"
 
 rm -r "../OpenRA/mods/cnc"
 
