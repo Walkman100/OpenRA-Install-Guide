@@ -1,13 +1,19 @@
 #!/bin/bash
+die() {
+    echo
+    echo "$* Failed!"
+    exit 1
+}
+
 # download & build OpenRA
     git clone https://github.com/OpenRA/OpenRA
     cd OpenRA
     
-    git checkout 31d822bcd2cbae0908b0d730d3a54486fb625a61
+    git checkout 31d822bcd2cbae0908b0d730d3a54486fb625a61 || die "git checkout"
     # checkout tested working code so future builds use the same version
     
-    make dependencies
-    make all
+    make dependencies || die "make dependencies"
+    make all || die "make all"
     #  make version
     # since the mod doesn't have a make version command
     cd ..
@@ -16,7 +22,7 @@
     git clone https://github.com/OpenRA/ra2
     cd ra2
     
-    git checkout 48d1ee0200316aac56f8be7ec0d73fe1e895cef2
+    git checkout 48d1ee0200316aac56f8be7ec0d73fe1e895cef2 || die "git checkout"
     # checkout tested working code so future builds use the same version
 
     OpenRADir=$(dirname "$(pwd)")/OpenRA
@@ -29,7 +35,7 @@
     ln -s "$OpenRADir/mods/ts/OpenRA.Mods.TS.dll" "$OpenRADir/OpenRA.Mods.RA2/dependencies/OpenRA.Mods.TS.dll"
 
     cd OpenRA.Mods.RA2
-    xbuild
+    xbuild || die "xbuild"
     cd ..
 
 # build done, now copy files
