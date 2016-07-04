@@ -56,4 +56,18 @@ die() {
 # rm -r "$OpenRADir/mods/cnc"
 
 echo "To play with the RA2 mod, use: \"./launch-game.sh\" from: \"$OpenRADir\""
-# xdg-open $(dirname $(pwd))/OpenRA
+
+read -p "Launch game now(g), or open folder(f), or both(b)? [g/f/b/n]: "
+
+if [ -z "$REPLY" ]; then
+    exit
+elif [ $REPLY = f ]; then
+    xdg-open $OpenRADir
+elif [ $REPLY = g ]; then
+    cd $OpenRADir
+    ./launch-game.sh
+elif [ $REPLY = b ]; then
+    xdg-open $OpenRADir
+    cd $OpenRADir
+    ./launch-game.sh
+fi
