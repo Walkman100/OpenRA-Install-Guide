@@ -3,7 +3,7 @@
     git clone https://github.com/OpenRA/OpenRA
     cd OpenRA
     
-    git checkout 2d21d6aad2fa75ebf9af71108e9877cffc4e856d
+    git checkout 31d822bcd2cbae0908b0d730d3a54486fb625a61
     # checkout tested working code so future builds use the same version
     
     make dependencies
@@ -16,7 +16,7 @@
     git clone https://github.com/OpenRA/ra2
     cd ra2
     
-    git checkout 2b168175e34ed647d4004e89a5207ca491dfe1c6
+    git checkout 48d1ee0200316aac56f8be7ec0d73fe1e895cef2
     # checkout tested working code so future builds use the same version
 
     OpenRADir=$(dirname "$(pwd)")/OpenRA
@@ -47,7 +47,7 @@
     cp -r weapons "$OutDir/weapons"
     cp chrome.yaml cursors.yaml logo.png metrics.yaml mod.yaml preview.png weapons.yaml OpenRA.Mods.RA2/bin/Debug/OpenRA.Mods.RA2.dll "$OutDir"
 
-rm -r "../OpenRA/mods/cnc"
+# rm -r "$OpenRADir/mods/cnc"
 
 echo "To play with the RA2 mod, use: \"./launch-game.sh\" from: \"$OpenRADir\""
 # xdg-open $(dirname $(pwd))/OpenRA
