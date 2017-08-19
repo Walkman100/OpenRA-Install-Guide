@@ -1,9 +1,9 @@
 ## Tiberium Dawn
-- If you have a slower/intermittent internet connection, download [cnc1_movies_full.rar](http://download.digiex.net/Games/C&C Gold/cnc1_movies_full.rar) first.
+- If you have a slower/intermittent internet connection, download [cnc1_movies_full.rar](http://download.digiex.net/Games/C&C%20Gold/cnc1_movies_full.rar) first.
 - Run `install-cnc.bat` on Windows or `bash install-cnc.sh` on Linux. The script will download `cnc1_movies_full.rar` automatically if it is not found.
 
 ## Red Alert
-- download [iran.cnc-comm.com/ra/PortableRA videos setup.exe](http://iran.cnc-comm.com/ra/PortableRA videos setup.exe)
+- download [iran.cnc-comm.com/ra/PortableRA videos setup.exe](http://iran.cnc-comm.com/ra/PortableRA%20videos%20setup.exe)
 - run it, set the extract location to `C:\Users\YOUR_NAME\Documents\OpenRA\Content\ra`, replacing `YOUR_NAME` with your user account name.
 - Linux users, thankfully it seems to run fine on WinE: `wine start /unix "PortableRA videos setup.exe"`, and set it to extract to `Z:\home\USERNAME\.openra\Content\ra` rather.
 
