@@ -12,7 +12,7 @@ the mods should automatically use the disc contents.
 straight from within OpenRA itself, so you'd want to install OpenRA first:
 - http://www.openra.net/download
 - Once that has installed, go to the content manager for all 3 mods and click all the download buttons
-(click <kbd>Manage Content</kbd>) then choose <kbd>Download</kbd>.
+(click <kbd>Manage Content</kbd> then choose <kbd>Download</kbd>).
 
 ### Dune 2000 Music
 The music for the Dune2K mod was removed from the download mirrors
