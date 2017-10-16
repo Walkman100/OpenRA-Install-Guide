@@ -1,3 +1,4 @@
+@echo off
 IF NOT EXIST RedAlert1_AlliedDisc.rar (
 ..\utilities\wget "http://cncnz.com/?smd_process_download=1&download_id=7587"
 )

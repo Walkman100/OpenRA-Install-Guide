@@ -1,3 +1,4 @@
+@echo off
 IF NOT EXIST GDI95.zip (
 ..\utilities\wget "http://cncnz.com/?smd_process_download=1&download_id=7585"
 )

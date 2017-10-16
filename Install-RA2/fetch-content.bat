@@ -1,3 +1,4 @@
+@echo off
 set RA2Dir=%UserProfile%\Documents\OpenRA\Content\ra2
 mkdir "%RA2Dir%"
 pushd "%RA2Dir%"
