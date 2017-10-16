@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 mkdir -p "$HOME/.openra/Content/ra2/"
 pushd "$HOME/.openra/Content/ra2/"
     wget http://xwis.net/downloads/Red-Alert-2-Multiplayer.exe

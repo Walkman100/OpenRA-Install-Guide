@@ -1,3 +1,4 @@
+#!/usr/bin/env bash
 if [ ! -e RedAlert1_AlliedDisc.rar ]; then
     wget "http://cncnz.com/?smd_process_download=1&download_id=7587"
 fi

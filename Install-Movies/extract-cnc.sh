@@ -1,3 +1,4 @@
+#!/usr/bin/env bash
 if [ ! -e GDI95.zip ]; then
     wget "http://cncnz.com/?smd_process_download=1&download_id=7585"
 fi
