@@ -1,9 +1,9 @@
 @echo off
 IF NOT EXIST RedAlert1_AlliedDisc.rar (
-..\utilities\wget "http://cncnz.com/?smd_process_download=1&download_id=7587"
+..\utilities\wget "https://cncnz.com/_files/RedAlert1_AlliedDisc.rar"
 )
 IF NOT EXIST RedAlert1_SovietDisc.rar (
-..\utilities\wget "http://cncnz.com/?smd_process_download=1&download_id=7588"
+..\utilities\wget "https://cncnz.com/_files/RedAlert1_SovietDisc.rar"
 )
 
 ..\utilities\7z e RedAlert1_AlliedDisc.rar RedAlert1_AlliedDisc/RedAlert1_AlliedDisc/CD1_ALLIED_DISC.ISO
@@ -13,10 +13,10 @@ echo Press enter to possibly download, then extract extra music files...
 pause
 
 IF NOT EXIST RACounterstrike.zip (
-..\utilities\wget "http://cncnz.com/?smd_process_download=1&download_id=7589"
+..\utilities\wget "https://cncnz.com/_files/RACounterstrike.zip"
 )
 IF NOT EXIST RATheAftermath.zip (
-..\utilities\wget "http://cncnz.com/?smd_process_download=1&download_id=7591"
+..\utilities\wget "https://cncnz.com/_files/RATheAftermath.zip"
 )
 
 ..\utilities\unzip RACounterstrike.zip
