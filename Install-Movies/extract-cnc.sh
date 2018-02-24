@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
 if [ ! -e GDI95.zip ]; then
-    wget "http://cncnz.com/?smd_process_download=1&download_id=7585"
+    wget "https://cncnz.com/_files/GDI95.zip"
 fi
 if [ ! -e NOD95.zip ]; then
-    wget "http://cncnz.com/?smd_process_download=1&download_id=7586"
+    wget "https://cncnz.com/_files/NOD95.zip"
 fi
 
 unzip GDI95.zip GDI95.iso
@@ -17,7 +17,7 @@ fi
 
 
 if [ ! -e CovertOps_ISO.zip ]; then
-    wget "http://cncnz.com/?smd_process_download=1&download_id=7711"
+    wget "https://cncnz.com/_files/CovertOps_ISO.zip"
 fi
 
 unzip CovertOps_ISO.zip

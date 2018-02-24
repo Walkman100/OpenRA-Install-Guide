@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
 if [ ! -e RedAlert1_AlliedDisc.rar ]; then
-    wget "http://cncnz.com/?smd_process_download=1&download_id=7587"
+    wget "https://cncnz.com/_files/RedAlert1_AlliedDisc.rar"
 fi
 if [ ! -e RedAlert1_SovietDisc.rar ]; then
-    wget "http://cncnz.com/?smd_process_download=1&download_id=7588"
+    wget "https://cncnz.com/_files/RedAlert1_SovietDisc.rar"
 fi
 
 unrar e RedAlert1_AlliedDisc.rar RedAlert1_AlliedDisc/RedAlert1_AlliedDisc/CD1_ALLIED_DISC.ISO
@@ -17,10 +17,10 @@ fi
 
 
 if [ ! -e RACounterstrike.zip ]; then
-    wget "http://cncnz.com/?smd_process_download=1&download_id=7589"
+    wget "https://cncnz.com/_files/RACounterstrike.zip"
 fi
 if [ ! -e RATheAftermath.zip ]; then
-    wget "http://cncnz.com/?smd_process_download=1&download_id=7591"
+    wget "https://cncnz.com/_files/RATheAftermath.zip"
 fi
 
 unzip RACounterstrike.zip
