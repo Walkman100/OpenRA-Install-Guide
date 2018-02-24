@@ -18,8 +18,7 @@ straight from within OpenRA itself, so you'd want to install OpenRA first:
 The music for the Dune2K mod was removed from the download mirrors
 because of licensing concerns (see [this PR](https://github.com/OpenRA/OpenRAWeb/pull/268)).
 
-You can still get the zip containing the music from their servers at
-`81.169.246.181/d2k-music.zip` or from this repo.
+You can still get the zip containing the music from this repo.
 
 This archive needs to be extracted to the `d2k` mod folder
 (see [folder paths](#folder-paths) section), so that the `*.AUD` files end up in the `Music` folder.
@@ -43,11 +42,51 @@ Linux:
 Mac OSX:
 - `~/Library/Application Support/OpenRA`
 
-The folder you will want when installing assets is the `Content` subfolder,
-this has a folder for each mod (`cnc`, `d2k`, `ra`) with the mod assets contained (`ra` and `d2k` folders additionally have a `v2` folder within).
-
 In a portable installation (Windows), the folder path will be
 `%ProgramFiles%\OpenRA` with a `Support` subfolder instead of `Content`.
 
+The folder you will want when installing assets is the `Content` subfolder,
+this has a folder for each mod (`cnc`, `d2k`, `ra`) with the mod assets contained (`ra` and `d2k` folders additionally have a `v2` folder within).
+
 ## Game Movies/Cinematics
 See [Install-Movies/ReadMe.md](Install-Movies#tiberium-dawn)
+
+## Folder tree
+```
+[OpenRA Content folder]
+├── Content
+│   ├── cnc
+│   │   ├── movies
+│   │   │   └── *.vqa
+│   │   └── *.mix
+│   ├── d2
+│   │   └── *.PAK
+│   ├── d2k
+│   │   └── v2
+│   │       ├── GAMESFX
+│   │       │   └── *.AUD
+│   │       ├── Movies
+│   │       │   └── *.VQA   NOTE: filenames must be in uppercase
+│   │       ├── Music
+│   │       │   └── *.AUD   NOTE: filenames must be in uppercase
+│   │       └── *.R8
+│   ├── ra
+│   │   └── v2
+│   │       ├── cnc
+│   │       │   └── desert.mix
+│   │       ├── expand
+│   │       │   └── *.aud
+│   │       ├── movies
+│   │       │   └── *.vqa
+│   │       └── *.mix
+│   └── ts
+│       └── *.mix
+├── Logs
+├── maps
+├── ModMetadata
+├── news.yaml
+├── Replays
+├── Screenshots
+└── settings.yaml
+```
+See [full-tree.txt](full-tree.txt) for every individual file

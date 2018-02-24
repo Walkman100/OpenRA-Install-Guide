@@ -1,0 +1,683 @@
+[OpenRA Dir]
+├── Content
+│   ├── cnc
+│   │   ├── movies
+│   │   │   ├── airstrk.vqa
+│   │   │   ├── akira.vqa
+│   │   │   ├── banner.vqa
+│   │   │   ├── bcanyon.vqa
+│   │   │   ├── bkground.vqa
+│   │   │   ├── bombaway.vqa
+│   │   │   ├── bombflee.vqa
+│   │   │   ├── burdet1.vqa
+│   │   │   ├── burdet2.vqa
+│   │   │   ├── cc2tease.vqa
+│   │   │   ├── consyard.vqa
+│   │   │   ├── desflees.vqa
+│   │   │   ├── deskill.vqa
+│   │   │   ├── desolat.vqa
+│   │   │   ├── dessweep.vqa
+│   │   │   ├── dino.vqa
+│   │   │   ├── flag.vqa
+│   │   │   ├── flyy.vqa
+│   │   │   ├── forestkl.vqa
+│   │   │   ├── gameover.vqa
+│   │   │   ├── gdi10.vqa
+│   │   │   ├── gdi11.vqa
+│   │   │   ├── gdi12.vqa
+│   │   │   ├── gdi13.vqa
+│   │   │   ├── gdi14.vqa
+│   │   │   ├── gdi15.vqa
+│   │   │   ├── gdi1.vqa
+│   │   │   ├── gdi2.vqa
+│   │   │   ├── gdi3lose.vqa
+│   │   │   ├── gdi3.vqa
+│   │   │   ├── gdi4a.vqa
+│   │   │   ├── gdi4b.vqa
+│   │   │   ├── gdi5.vqa
+│   │   │   ├── gdi6.vqa
+│   │   │   ├── gdi7.vqa
+│   │   │   ├── gdi8a.vqa
+│   │   │   ├── gdi8b.vqa
+│   │   │   ├── gdi9.vqa
+│   │   │   ├── gdiend1.vqa
+│   │   │   ├── gdiend2.vqa
+│   │   │   ├── gdifina.vqa
+│   │   │   ├── gdifinb.vqa
+│   │   │   ├── gdilose.vqa
+│   │   │   ├── generic.vqa
+│   │   │   ├── gunboat.vqa
+│   │   │   ├── hellvaly.vqa
+│   │   │   ├── insites.vqa
+│   │   │   ├── intro2.vqa
+│   │   │   ├── kanepre.vqa
+│   │   │   ├── landing.vqa
+│   │   │   ├── logo.vqa
+│   │   │   ├── napalm.vqa
+│   │   │   ├── nitejump.vqa
+│   │   │   ├── nod10a.vqa
+│   │   │   ├── nod10b.vqa
+│   │   │   ├── nod11.vqa
+│   │   │   ├── nod12.vqa
+│   │   │   ├── nod13.vqa
+│   │   │   ├── nod1pre.vqa
+│   │   │   ├── nod1.vqa
+│   │   │   ├── nod2.vqa
+│   │   │   ├── nod3.vqa
+│   │   │   ├── nod4a.vqa
+│   │   │   ├── nod4b.vqa
+│   │   │   ├── nod5.vqa
+│   │   │   ├── nod6.vqa
+│   │   │   ├── nod7a.vqa
+│   │   │   ├── nod7b.vqa
+│   │   │   ├── nod8.vqa
+│   │   │   ├── nod9.vqa
+│   │   │   ├── nodend1.vqa
+│   │   │   ├── nodend2.vqa
+│   │   │   ├── nodend3.vqa
+│   │   │   ├── nodend4.vqa
+│   │   │   ├── nodfinal.vqa
+│   │   │   ├── nodflees.vqa
+│   │   │   ├── nodlose.vqa
+│   │   │   ├── nodsweep.vqa
+│   │   │   ├── nuke.vqa
+│   │   │   ├── obel.vqa
+│   │   │   ├── paratrop.vqa
+│   │   │   ├── pintle.vqa
+│   │   │   ├── planecra.vqa
+│   │   │   ├── podium.vqa
+│   │   │   ├── refint.vqa
+│   │   │   ├── retro.vqa
+│   │   │   ├── sabotage.vqa
+│   │   │   ├── samdie.vqa
+│   │   │   ├── samsite.vqa
+│   │   │   ├── seige.vqa
+│   │   │   ├── sethpre.vqa
+│   │   │   ├── spycrash.vqa
+│   │   │   ├── stealth.vqa
+│   │   │   ├── sundial.vqa
+│   │   │   ├── tankgo.vqa
+│   │   │   ├── tankkill.vqa
+│   │   │   ├── tbrinfo1.vqa
+│   │   │   ├── tbrinfo2.vqa
+│   │   │   ├── tbrinfo3.vqa
+│   │   │   ├── tiberfx.vqa
+│   │   │   ├── trailer.vqa
+│   │   │   ├── trtkil_d.vqa
+│   │   │   ├── turtkill.vqa
+│   │   │   └── visor.vqa
+│   │   ├── conquer.mix
+│   │   ├── desert.mix
+│   │   ├── general.mix
+│   │   ├── scores-covertops.mix
+│   │   ├── scores.mix
+│   │   ├── sounds.mix
+│   │   ├── speech.mix
+│   │   ├── temperat.mix
+│   │   ├── tempicnh.mix
+│   │   ├── transit.mix
+│   │   └── winter.mix
+│   ├── d2
+│   │   ├── ATRE.PAK
+│   │   ├── DUNE.PAK
+│   │   ├── FINALE.PAK
+│   │   ├── HARK.PAK
+│   │   ├── INTRO.PAK
+│   │   ├── ORDOS.PAK
+│   │   └── VOC.PAK
+│   ├── d2k
+│   │   └── v2
+│   │       ├── GAMESFX
+│   │       │   ├── A_ECONF1.AUD
+│   │       │   ├── A_ECONF2.AUD
+│   │       │   ├── A_ECONF3.AUD
+│   │       │   ├── A_ESEL1.AUD
+│   │       │   ├── A_ESEL2.AUD
+│   │       │   ├── A_ESEL3.AUD
+│   │       │   ├── A_FCONF1.AUD
+│   │       │   ├── A_FCONF2.AUD
+│   │       │   ├── A_FCONF3.AUD
+│   │       │   ├── A_FCONF4.AUD
+│   │       │   ├── A_FSEL1.AUD
+│   │       │   ├── A_FSEL2.AUD
+│   │       │   ├── A_FSEL3.AUD
+│   │       │   ├── A_FSEL4.AUD
+│   │       │   ├── AI_1MIN.AUD
+│   │       │   ├── AI_2MIN.AUD
+│   │       │   ├── AI_3MIN.AUD
+│   │       │   ├── AI_4MIN.AUD
+│   │       │   ├── AI_5MIN.AUD
+│   │       │   ├── AI_ABORT.AUD
+│   │       │   ├── AI_ATACK.AUD
+│   │       │   ├── AI_BDRDY.AUD
+│   │       │   ├── AI_BLOST.AUD
+│   │       │   ├── AI_BUILD.AUD
+│   │       │   ├── AI_CANCL.AUD
+│   │       │   ├── AI_CAPT.AUD
+│   │       │   ├── A_ICONF1.AUD
+│   │       │   ├── A_ICONF2.AUD
+│   │       │   ├── A_ICONF3.AUD
+│   │       │   ├── AI_DHRDY.AUD
+│   │       │   ├── AI_DPLOY.AUD
+│   │       │   ├── AI_ENEMY.AUD
+│   │       │   ├── AI_GANEW.AUD
+│   │       │   ├── AI_GLOAD.AUD
+│   │       │   ├── AI_GSAVE.AUD
+│   │       │   ├── AI_GUARD.AUD
+│   │       │   ├── AI_HATTK.AUD
+│   │       │   ├── AI_HOLD.AUD
+│   │       │   ├── AI_LAUNC.AUD
+│   │       │   ├── AI_MAP1A.AUD
+│   │       │   ├── AI_MAP1B.AUD
+│   │       │   ├── AI_MAP1C.AUD
+│   │       │   ├── AI_MAP2A.AUD
+│   │       │   ├── AI_MAP2B.AUD
+│   │       │   ├── AI_MAP2C.AUD
+│   │       │   ├── AI_MAP3A.AUD
+│   │       │   ├── AI_MAP4A.AUD
+│   │       │   ├── AI_MAP5A.AUD
+│   │       │   ├── AI_MAP6A.AUD
+│   │       │   ├── AI_MAP7A.AUD
+│   │       │   ├── AI_MAP8A.AUD
+│   │       │   ├── AI_MAP9A.AUD
+│   │       │   ├── AI_MEND.AUD
+│   │       │   ├── AI_MFAIL.AUD
+│   │       │   ├── AI_MONEY.AUD
+│   │       │   ├── AI_MWIN.AUD
+│   │       │   ├── AI_NEWOP.AUD
+│   │       │   ├── AI_NROOM.AUD
+│   │       │   ├── AI_ORDER.AUD
+│   │       │   ├── AI_PLACE.AUD
+│   │       │   ├── AI_POWER.AUD
+│   │       │   ├── AI_PREP.AUD
+│   │       │   ├── AI_PRMRY.AUD
+│   │       │   ├── AI_REINF.AUD
+│   │       │   ├── AI_RUN.AUD
+│   │       │   ├── A_ISEL1.AUD
+│   │       │   ├── A_ISEL2.AUD
+│   │       │   ├── A_ISEL3.AUD
+│   │       │   ├── AI_SELL.AUD
+│   │       │   ├── AI_SILOS.AUD
+│   │       │   ├── AI_SPORT.AUD
+│   │       │   ├── AI_TRAIN.AUD
+│   │       │   ├── AI_ULOST.AUD
+│   │       │   ├── AI_UNRDY.AUD
+│   │       │   ├── AI_UPGOP.AUD
+│   │       │   ├── AI_UPGRD.AUD
+│   │       │   ├── AI_WATTK.AUD
+│   │       │   ├── AI_WSIGN.AUD
+│   │       │   ├── A_VCONF1.AUD
+│   │       │   ├── A_VCONF2.AUD
+│   │       │   ├── A_VCONF3.AUD
+│   │       │   ├── A_VSEL1.AUD
+│   │       │   ├── A_VSEL2.AUD
+│   │       │   ├── A_VSEL3.AUD
+│   │       │   ├── G_SCONF1.AUD
+│   │       │   ├── G_SCONF2.AUD
+│   │       │   ├── G_SCONF3.AUD
+│   │       │   ├── G_SSEL1.AUD
+│   │       │   ├── G_SSEL2.AUD
+│   │       │   ├── G_SSEL3.AUD
+│   │       │   ├── H_ECONF1.AUD
+│   │       │   ├── H_ECONF2.AUD
+│   │       │   ├── H_ECONF3.AUD
+│   │       │   ├── H_ESEL1.AUD
+│   │       │   ├── H_ESEL2.AUD
+│   │       │   ├── H_ESEL3.AUD
+│   │       │   ├── HI_1MIN.AUD
+│   │       │   ├── HI_2MIN.AUD
+│   │       │   ├── HI_3MIN.AUD
+│   │       │   ├── HI_4MIN.AUD
+│   │       │   ├── HI_5MIN.AUD
+│   │       │   ├── HI_ABORT.AUD
+│   │       │   ├── HI_ATACK.AUD
+│   │       │   ├── HI_BDRDY.AUD
+│   │       │   ├── HI_BLOST.AUD
+│   │       │   ├── HI_BUILD.AUD
+│   │       │   ├── HI_CANCL.AUD
+│   │       │   ├── HI_CAPT.AUD
+│   │       │   ├── H_ICONF1.AUD
+│   │       │   ├── H_ICONF2.AUD
+│   │       │   ├── H_ICONF3.AUD
+│   │       │   ├── HI_DHRDY.AUD
+│   │       │   ├── HI_DPLOY.AUD
+│   │       │   ├── HI_ENEMY.AUD
+│   │       │   ├── HI_GANEW.AUD
+│   │       │   ├── HI_GLOAD.AUD
+│   │       │   ├── HI_GSAVE.AUD
+│   │       │   ├── HI_GUARD.AUD
+│   │       │   ├── HI_HATTK.AUD
+│   │       │   ├── HI_HOLD.AUD
+│   │       │   ├── HI_LAUNC.AUD
+│   │       │   ├── HI_MAP1A.AUD
+│   │       │   ├── HI_MAP1B.AUD
+│   │       │   ├── HI_MAP1C.AUD
+│   │       │   ├── HI_MAP2A.AUD
+│   │       │   ├── HI_MAP2B.AUD
+│   │       │   ├── HI_MAP2C.AUD
+│   │       │   ├── HI_MAP3A.AUD
+│   │       │   ├── HI_MAP3B.AUD
+│   │       │   ├── HI_MAP4A.AUD
+│   │       │   ├── HI_MAP4B.AUD
+│   │       │   ├── HI_MAP5A.AUD
+│   │       │   ├── HI_MAP6A.AUD
+│   │       │   ├── HI_MAP6B.AUD
+│   │       │   ├── HI_MAP7A.AUD
+│   │       │   ├── HI_MAP9A.AUD
+│   │       │   ├── HI_MAP9.AUD
+│   │       │   ├── HI_MEND.AUD
+│   │       │   ├── HI_MFAIL.AUD
+│   │       │   ├── HI_MONEY.AUD
+│   │       │   ├── HI_MWIN.AUD
+│   │       │   ├── HI_NEWOP.AUD
+│   │       │   ├── HI_NROOM.AUD
+│   │       │   ├── HI_ORDER.AUD
+│   │       │   ├── HI_PLACE.AUD
+│   │       │   ├── HI_POWER.AUD
+│   │       │   ├── HI_PREP.AUD
+│   │       │   ├── HI_PRMRY.AUD
+│   │       │   ├── HI_REINF.AUD
+│   │       │   ├── HI_RUN.AUD
+│   │       │   ├── H_ISEL1.AUD
+│   │       │   ├── H_ISEL2.AUD
+│   │       │   ├── H_ISEL3.AUD
+│   │       │   ├── HI_SELL.AUD
+│   │       │   ├── HI_SILOS.AUD
+│   │       │   ├── HI_SPORT.AUD
+│   │       │   ├── HI_TRAIN.AUD
+│   │       │   ├── HI_ULOST.AUD
+│   │       │   ├── HI_UNRDY.AUD
+│   │       │   ├── HI_UPGOP.AUD
+│   │       │   ├── HI_UPGRD.AUD
+│   │       │   ├── HI_WATTK.AUD
+│   │       │   ├── HI_WSIGN.AUD
+│   │       │   ├── H_VCONF1.AUD
+│   │       │   ├── H_VCONF2.AUD
+│   │       │   ├── H_VCONF3.AUD
+│   │       │   ├── H_VSEL1.AUD
+│   │       │   ├── H_VSEL2.AUD
+│   │       │   ├── H_VSEL3.AUD
+│   │       │   ├── O_ECONF1.AUD
+│   │       │   ├── O_ECONF2.AUD
+│   │       │   ├── O_ECONF3.AUD
+│   │       │   ├── O_ESEL1.AUD
+│   │       │   ├── O_ESEL2.AUD
+│   │       │   ├── O_ESEL3.AUD
+│   │       │   ├── OI_1MIN.AUD
+│   │       │   ├── OI_2MIN.AUD
+│   │       │   ├── OI_3MIN.AUD
+│   │       │   ├── OI_4MIN.AUD
+│   │       │   ├── OI_5MIN.AUD
+│   │       │   ├── OI_ABORT.AUD
+│   │       │   ├── OI_ATACK.AUD
+│   │       │   ├── OI_BDRDY.AUD
+│   │       │   ├── OI_BLOST.AUD
+│   │       │   ├── OI_BUILD.AUD
+│   │       │   ├── OI_CANCL.AUD
+│   │       │   ├── OI_CAPT.AUD
+│   │       │   ├── O_ICONF1.AUD
+│   │       │   ├── O_ICONF2.AUD
+│   │       │   ├── O_ICONF3.AUD
+│   │       │   ├── OI_DHRDY.AUD
+│   │       │   ├── OI_DPLOY.AUD
+│   │       │   ├── OI_ENEMY.AUD
+│   │       │   ├── OI_GANEW.AUD
+│   │       │   ├── OI_GLOAD.AUD
+│   │       │   ├── OI_GSAVE.AUD
+│   │       │   ├── OI_GUARD.AUD
+│   │       │   ├── OI_HATTK.AUD
+│   │       │   ├── OI_HOLD.AUD
+│   │       │   ├── OI_LAUNC.AUD
+│   │       │   ├── OI_MAP1A.AUD
+│   │       │   ├── OI_MAP1B.AUD
+│   │       │   ├── OI_MAP1C.AUD
+│   │       │   ├── OI_MAP2A.AUD
+│   │       │   ├── OI_MAP2B.AUD
+│   │       │   ├── OI_MAP2C.AUD
+│   │       │   ├── OI_MAP3A.AUD
+│   │       │   ├── OI_MAP4A.AUD
+│   │       │   ├── OI_MAP5A.AUD
+│   │       │   ├── OI_MAP6A.AUD
+│   │       │   ├── OI_MAP7A.AUD
+│   │       │   ├── OI_MAP8A.AUD
+│   │       │   ├── OI_MAP9A.AUD
+│   │       │   ├── OI_MEND.AUD
+│   │       │   ├── OI_MFAIL.AUD
+│   │       │   ├── OI_MONEY.AUD
+│   │       │   ├── OI_MWIN.AUD
+│   │       │   ├── OI_NEWOP.AUD
+│   │       │   ├── OI_NROOM.AUD
+│   │       │   ├── OI_ORDER.AUD
+│   │       │   ├── OI_PLACE.AUD
+│   │       │   ├── OI_POWER.AUD
+│   │       │   ├── OI_PREP.AUD
+│   │       │   ├── OI_PRMRY.AUD
+│   │       │   ├── OI_REINF.AUD
+│   │       │   ├── OI_RUN.AUD
+│   │       │   ├── O_ISEL1.AUD
+│   │       │   ├── O_ISEL2.AUD
+│   │       │   ├── O_ISEL3.AUD
+│   │       │   ├── OI_SELL.AUD
+│   │       │   ├── OI_SILOS.AUD
+│   │       │   ├── OI_SPORT.AUD
+│   │       │   ├── OI_TRAIN.AUD
+│   │       │   ├── OI_ULOST.AUD
+│   │       │   ├── OI_UNRDY.AUD
+│   │       │   ├── OI_UPGOP.AUD
+│   │       │   ├── OI_UPGRD.AUD
+│   │       │   ├── OI_WATTK.AUD
+│   │       │   ├── OI_WSIGN.AUD
+│   │       │   ├── O_SCONF1.AUD
+│   │       │   ├── O_SCONF2.AUD
+│   │       │   ├── O_SCONF3.AUD
+│   │       │   ├── O_SSEL1.AUD
+│   │       │   ├── O_SSEL2.AUD
+│   │       │   ├── O_SSEL3.AUD
+│   │       │   ├── O_VCONF1.AUD
+│   │       │   ├── O_VCONF2.AUD
+│   │       │   ├── O_VCONF3.AUD
+│   │       │   ├── O_VSEL1.AUD
+│   │       │   ├── O_VSEL2.AUD
+│   │       │   └── O_VSEL3.AUD
+│   │       ├── Movies
+│   │       │   ├── A_BR01_E.VQA
+│   │       │   ├── A_BR02_E.VQA
+│   │       │   ├── A_BR03_E.VQA
+│   │       │   ├── A_BR04_E.VQA
+│   │       │   ├── A_BR05_E.VQA
+│   │       │   ├── A_BR06_E.VQA
+│   │       │   ├── A_BR07_E.VQA
+│   │       │   ├── A_BR08_E.VQA
+│   │       │   ├── A_BR09_E.VQA
+│   │       │   ├── A_FINL_E.VQA
+│   │       │   ├── A_LOSE_E.VQA
+│   │       │   ├── A_MNTG_E.VQA
+│   │       │   ├── G_INT1_E.VQA
+│   │       │   ├── G_INT2_E.VQA
+│   │       │   ├── G_MAPS_E.VQA
+│   │       │   ├── G_PLN2_E.VQA
+│   │       │   ├── G_PLNT_E.VQA
+│   │       │   ├── H_BR01_E.VQA
+│   │       │   ├── H_BR02_E.VQA
+│   │       │   ├── H_BR03_E.VQA
+│   │       │   ├── H_BR04_E.VQA
+│   │       │   ├── H_BR05_E.VQA
+│   │       │   ├── H_BR06_E.VQA
+│   │       │   ├── H_BR07_E.VQA
+│   │       │   ├── H_BR08_E.VQA
+│   │       │   ├── H_BR09_E.VQA
+│   │       │   ├── H_FINL_E.VQA
+│   │       │   ├── H_LOSE_E.VQA
+│   │       │   ├── H_MNTG_E.VQA
+│   │       │   ├── O_BR01_E.VQA
+│   │       │   ├── O_BR02_E.VQA
+│   │       │   ├── O_BR03_E.VQA
+│   │       │   ├── O_BR04_E.VQA
+│   │       │   ├── O_BR05_E.VQA
+│   │       │   ├── O_BR06_E.VQA
+│   │       │   ├── O_BR07_E.VQA
+│   │       │   ├── O_BR08_E.VQA
+│   │       │   ├── O_BR09_E.VQA
+│   │       │   ├── O_FINL_E.VQA
+│   │       │   ├── O_LOSE_E.VQA
+│   │       │   ├── O_MNTG_E.VQA
+│   │       │   ├── TS_SIZZL.VQA
+│   │       │   └── T_TITL_E.VQA
+│   │       ├── Music
+│   │       │   ├── AMBUSH.AUD
+│   │       │   ├── ARAKATAK.AUD
+│   │       │   ├── ATREGAIN.AUD
+│   │       │   ├── ENTORDOS.AUD
+│   │       │   ├── FIGHTPWR.AUD
+│   │       │   ├── FREMEN.AUD
+│   │       │   ├── HARK_BAT.AUD
+│   │       │   ├── LANDSAND.AUD
+│   │       │   ├── OPTIONS.AUD
+│   │       │   ├── PLOTTING.AUD
+│   │       │   ├── RISEHARK.AUD
+│   │       │   ├── ROBOTIX.AUD
+│   │       │   ├── SCORE.AUD
+│   │       │   ├── SOLDAPPR.AUD
+│   │       │   ├── SPICESCT.AUD
+│   │       │   ├── UNDERCON.AUD
+│   │       │   └── WAITGAME.AUD
+│   │       ├── BLOXBASE.R8
+│   │       ├── BLOXBAT.R8
+│   │       ├── BLOXBGBS.R8
+│   │       ├── BLOXICE.R8
+│   │       ├── BLOXTREE.R8
+│   │       ├── BLOXWAST.R8
+│   │       ├── BLOXXMAS.R8
+│   │       ├── DATA.R8
+│   │       ├── FONT.BIN
+│   │       ├── FONTCOL.FNT
+│   │       ├── FONTCOL.FPL
+│   │       ├── PALETTE.BIN
+│   │       ├── MOUSE.R8
+│   │       └── SOUND.RS
+│   ├── ra
+│   │   └── v2
+│   │       ├── cnc
+│   │       │   └── desert.mix
+│   │       ├── expand
+│   │       │   ├── 2nd_hand.aud
+│   │       │   ├── araziod.aud
+│   │       │   ├── await.aud
+│   │       │   ├── backstab.aud
+│   │       │   ├── bog.aud
+│   │       │   ├── chaos2.aud
+│   │       │   ├── chrotnk1.aud
+│   │       │   ├── expand2.mix
+│   │       │   ├── fixit1.aud
+│   │       │   ├── float_v2.aud
+│   │       │   ├── gloom.aud
+│   │       │   ├── grndwire.aud
+│   │       │   ├── hires1.mix
+│   │       │   ├── jburn1.aud
+│   │       │   ├── jchrge1.aud
+│   │       │   ├── jcrisp1.aud
+│   │       │   ├── jdance1.aud
+│   │       │   ├── jjuice1.aud
+│   │       │   ├── jjump1.aud
+│   │       │   ├── jlight1.aud
+│   │       │   ├── jpower1.aud
+│   │       │   ├── jshock1.aud
+│   │       │   ├── jyes1.aud
+│   │       │   ├── lores1.mix
+│   │       │   ├── madchrg2.aud
+│   │       │   ├── madexplo.aud
+│   │       │   ├── mboss1.aud
+│   │       │   ├── mhear1.aud
+│   │       │   ├── mhotdig1.aud
+│   │       │   ├── mhowdy1.aud
+│   │       │   ├── mhuh1.aud
+│   │       │   ├── mlaff1.aud
+│   │       │   ├── mrise1.aud
+│   │       │   ├── mwrench1.aud
+│   │       │   ├── myeehaw1.aud
+│   │       │   ├── myes1.aud
+│   │       │   ├── rpt.aud
+│   │       │   ├── search.aud
+│   │       │   ├── shut_it.aud
+│   │       │   ├── traction.aud
+│   │       │   ├── twinmix1.aud
+│   │       │   ├── under3.aud
+│   │       │   ├── vr2.aud
+│   │       │   └── wastelnd.aud
+│   │       ├── movies
+│   │       │   ├── aagun.vqa
+│   │       │   ├── aftrmath.vqa
+│   │       │   ├── airfield.vqa
+│   │       │   ├── ally10b.vqa
+│   │       │   ├── ally10.vqa
+│   │       │   ├── ally11.vqa
+│   │       │   ├── ally12.vqa
+│   │       │   ├── ally14.vqa
+│   │       │   ├── ally1.vqa
+│   │       │   ├── ally2.vqa
+│   │       │   ├── ally4.vqa
+│   │       │   ├── ally5.vqa
+│   │       │   ├── ally6.vqa
+│   │       │   ├── ally8.vqa
+│   │       │   ├── ally9.vqa
+│   │       │   ├── allyend.vqa
+│   │       │   ├── allymorf.vqa
+│   │       │   ├── apcescpe.vqa
+│   │       │   ├── assess.vqa
+│   │       │   ├── averted.vqa
+│   │       │   ├── battle.vqa
+│   │       │   ├── beachead.vqa
+│   │       │   ├── binoc.vqa
+│   │       │   ├── bmap.vqa
+│   │       │   ├── bombrun.vqa
+│   │       │   ├── brdgtilt.vqa
+│   │       │   ├── countdwn.vqa
+│   │       │   ├── cronfail.vqa
+│   │       │   ├── crontest.vqa
+│   │       │   ├── destroyr.vqa
+│   │       │   ├── double.vqa
+│   │       │   ├── dpthchrg.vqa
+│   │       │   ├── dud.vqa
+│   │       │   ├── elevator.vqa
+│   │       │   ├── execute.vqa
+│   │       │   ├── flare.vqa
+│   │       │   ├── frozen.vqa
+│   │       │   ├── grvestne.vqa
+│   │       │   ├── landing.vqa
+│   │       │   ├── masasslt.vqa
+│   │       │   ├── mcvbrdge.vqa
+│   │       │   ├── mcv_land.vqa
+│   │       │   ├── mcv.vqa
+│   │       │   ├── mig.vqa
+│   │       │   ├── montpass.vqa
+│   │       │   ├── movingin.vqa
+│   │       │   ├── mtnkfact.vqa
+│   │       │   ├── nukestok.vqa
+│   │       │   ├── oildrum.vqa
+│   │       │   ├── onthprwl.vqa
+│   │       │   ├── overrun.vqa
+│   │       │   ├── periscop.vqa
+│   │       │   ├── prolog.vqa
+│   │       │   ├── radrraid.vqa
+│   │       │   ├── redintro.vqa
+│   │       │   ├── search.vqa
+│   │       │   ├── sfrozen.vqa
+│   │       │   ├── shipsink.vqa
+│   │       │   ├── shorbom1.vqa
+│   │       │   ├── shorbom2.vqa
+│   │       │   ├── shorbomb.vqa
+│   │       │   ├── sitduck.vqa
+│   │       │   ├── slntsrvc.vqa
+│   │       │   ├── snowbomb.vqa
+│   │       │   ├── snstrafe.vqa
+│   │       │   ├── sovbatl.vqa
+│   │       │   ├── sovcemet.vqa
+│   │       │   ├── sovfinal.vqa
+│   │       │   ├── soviet10.vqa
+│   │       │   ├── soviet11.vqa
+│   │       │   ├── soviet12.vqa
+│   │       │   ├── soviet13.vqa
+│   │       │   ├── soviet14.vqa
+│   │       │   ├── soviet1.vqa
+│   │       │   ├── soviet2.vqa
+│   │       │   ├── soviet3.vqa
+│   │       │   ├── soviet4.vqa
+│   │       │   ├── soviet5.vqa
+│   │       │   ├── soviet6.vqa
+│   │       │   ├── soviet7.vqa
+│   │       │   ├── soviet8.vqa
+│   │       │   ├── soviet9.vqa
+│   │       │   ├── sovmcv.vqa
+│   │       │   ├── sovtstar.vqa
+│   │       │   ├── spotter.vqa
+│   │       │   ├── spy.vqa
+│   │       │   ├── strafe.vqa
+│   │       │   ├── take_off.vqa
+│   │       │   ├── tanya1.vqa
+│   │       │   ├── tanya2.vqa
+│   │       │   ├── tesla.vqa
+│   │       │   ├── toofar.vqa
+│   │       │   ├── trinity.vqa
+│   │       │   └── v2rocket.vqa
+│   │       ├── allies.mix
+│   │       ├── conquer.mix
+│   │       ├── hires.mix
+│   │       ├── interior.mix
+│   │       ├── local.mix
+│   │       ├── lores.mix
+│   │       ├── russian.mix
+│   │       ├── scores.mix
+│   │       ├── snow.mix
+│   │       ├── sounds.mix
+│   │       ├── speech.mix
+│   │       └── temperat.mix
+│   └── ts
+│       ├── cache.mix
+│       ├── conquer.mix
+│       ├── isosnow.mix
+│       ├── isotemp.mix
+│       ├── local.mix
+│       ├── scores.mix
+│       ├── sidec01.mix
+│       ├── sidec02.mix
+│       ├── sno.mix
+│       ├── snow.mix
+│       ├── sounds.mix
+│       ├── speech01.mix
+│       ├── speech02.mix
+│       ├── tem.mix
+│       └── temperat.mix
+├── Logs
+│   ├── debug.log
+│   ├── dedicated-debug.log
+│   ├── dedicated-nat.log
+│   ├── dedicated-perf.log
+│   ├── dedicated-server.log
+│   ├── exception.log
+│   ├── geoip.log
+│   ├── graphics.log
+│   ├── install.log
+│   ├── irc.log
+│   ├── lua.log
+│   ├── nat.log
+│   ├── perf.log
+│   ├── server.log
+│   ├── sound.log
+│   └── traitreport.log
+├── maps
+│   ├── cnc
+│   │   └── release-*
+│   ├── d2k
+│   │   └── release-*
+│   ├── ra
+│   │   └── release-*
+│   └── ts
+│       └── release-*
+├── ModMetadata
+│   ├── cnc-release-*.yaml
+│   ├── d2k-release-*.yaml
+│   └── ra-release-*.yaml
+├── Replays
+│   ├── cnc
+│   │   └── release-*
+│   │       └── OpenRA-*.orarep
+│   ├── d2k
+│   │   └── release-*
+│   │       └── OpenRA-*.orarep
+│   ├── ra
+│   │   └── release-*
+│   │       └── OpenRA-*.orarep
+│   ├── ra2
+│   │   └── {DEV_VERSION}
+│   │       └── OpenRA-*.orarep
+│   └── ts
+│       └── release-*
+│           └── OpenRA-*.orarep
+├── Screenshots
+│   └── ra2
+│       └── {DEV_VERSION}
+│           └── OpenRA-*.png
+├── news.yaml
+└── settings.yaml
+
+*'s are used in place of release versions or timestamps

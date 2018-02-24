@@ -1,10 +1,10 @@
 ## Tiberium Dawn
-- Download the GDI, Nod, and Covert Operations Discs under "Command & Conquer Gold" from [CNCNZ.com: Freeware Classic Command & Conquer Games](http://cncnz.com/features/freeware-classic-command-conquer-games/)
+- Download the GDI, Nod, and Covert Operations Discs under "Command & Conquer Gold" from [CNCNZ.com: Freeware Classic Command & Conquer Games](https://cncnz.com/features/freeware-classic-command-conquer-games/)
 - Move the downloaded files to this folder and run `extract-cnc.bat` on Windows or `bash extract-cnc.sh` on Linux from within the Install-Movies folder
 - then mount the images one at a time and use OpenRA's autodetect feature to extract the files
 
 ## Red Alert
-- Download the Allied, Soviet, Counterstrike and Aftermath CDs at the bottom of the page from [CNCNZ.com: Freeware Classic Command & Conquer Games](http://cncnz.com/features/freeware-classic-command-conquer-games/)
+- Download the Allied, Soviet, Counterstrike and Aftermath CDs at the bottom of the page from [CNCNZ.com: Freeware Classic Command & Conquer Games](https://cncnz.com/features/freeware-classic-command-conquer-games/)
 - Move the downloaded files to this folder and run `extract-ra.bat` on Windows or `bash extract-ra.sh` on Linux from within the Install-Movies folder
 - then mount the images one at a time and use OpenRA's autodetect feature to extract the files
 
