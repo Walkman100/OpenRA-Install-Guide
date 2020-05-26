@@ -1,14 +1,20 @@
 #!/usr/bin/env bash
+# if download links are broken, see here: https://gruntmods.com/cutscenes-and-extra-content/
 if [[ -z "${XDG_CONFIG_HOME}" ]]; then
-  DEST_ROOT="$HOME/.config/openra"
+  DEST="$HOME/.config/openra"
 else
-  DEST_ROOT="$HOME/.openra"
+  DEST="$HOME/.openra"
 fi
-DEST="/Content/d2k/v2/Movies"
-echo "copying to $DEST_ROOT$DEST..."
+DEST="${DEST}/Content/d2k/v2/Movies"
+echo "copying to $DEST..."
 
-mkdir -p $DEST_ROOT$DEST
-7z e Dune_2000_Gruntmods_Edition_Cutscenes.exe -o$DEST_ROOT$DEST
-pushd $DEST_ROOT$DEST
+mkdir -p $DEST
+
+if [ ! -e Dune_2000_Gruntmods_Edition_Cutscenes.exe ]; then
+    wget "https://gruntmods.com/download/909/"
+fi
+
+7z e Dune_2000_Gruntmods_Edition_Cutscenes.exe -o$DEST
+pushd $DEST
     rm *.dll *.ini *.bmp
 popd

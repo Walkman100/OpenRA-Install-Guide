@@ -1,9 +1,10 @@
 #!/usr/bin/env bash
+# if download links are broken, see here: https://cncnz.com/features/freeware-classic-command-conquer-games/
 if [ ! -e RedAlert1_AlliedDisc.rar ]; then
-    wget "https://cncnz.com/_files/RedAlert1_AlliedDisc.rar"
+    wget "https://files.cncnz.com/red_alert/full_game/RedAlert1_AlliedDisc.rar"
 fi
 if [ ! -e RedAlert1_SovietDisc.rar ]; then
-    wget "https://cncnz.com/_files/RedAlert1_SovietDisc.rar"
+    wget "https://files.cncnz.com/red_alert/full_game/RedAlert1_SovietDisc.rar"
 fi
 
 unrar e RedAlert1_AlliedDisc.rar RedAlert1_AlliedDisc/RedAlert1_AlliedDisc/CD1_ALLIED_DISC.ISO
@@ -17,10 +18,10 @@ fi
 
 
 if [ ! -e RACounterstrike.zip ]; then
-    wget "https://cncnz.com/_files/RACounterstrike.zip"
+    wget "https://files.cncnz.com/red_alert/full_game/RACounterstrike.zip"
 fi
 if [ ! -e RATheAftermath.zip ]; then
-    wget "https://cncnz.com/_files/RATheAftermath.zip"
+    wget "https://files.cncnz.com/red_alert/full_game/RATheAftermath.zip"
 fi
 
 unzip RACounterstrike.zip
