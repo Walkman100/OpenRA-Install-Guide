@@ -1,9 +1,10 @@
 #!/usr/bin/env bash
+# if download links are broken, see here: https://cncnz.com/features/freeware-classic-command-conquer-games/
 if [ ! -e GDI95.zip ]; then
-    wget "https://cncnz.com/_files/GDI95.zip"
+    wget "https://files.cncnz.com/cc1_tiberian_dawn/full_game/GDI95.zip"
 fi
 if [ ! -e NOD95.zip ]; then
-    wget "https://cncnz.com/_files/NOD95.zip"
+    wget "https://files.cncnz.com/cc1_tiberian_dawn/full_game/NOD95.zip"
 fi
 
 unzip GDI95.zip GDI95.iso
@@ -17,7 +18,7 @@ fi
 
 
 if [ ! -e CovertOps_ISO.zip ]; then
-    wget "https://cncnz.com/_files/CovertOps_ISO.zip"
+    wget "https://files.cncnz.com/cc1_tiberian_dawn/full_game/CovertOps_ISO.zip"
 fi
 
 unzip CovertOps_ISO.zip

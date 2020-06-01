@@ -37,7 +37,7 @@ Windows:
 - `%USERPROFILE%\My Documents\OpenRA`
 
 Linux:
-- `~/.openra`
+- `~/.openra` or `~/.config/openra` depending on `$XDG_CONFIG_HOME`
 
 Mac OSX:
 - `~/Library/Application Support/OpenRA`
