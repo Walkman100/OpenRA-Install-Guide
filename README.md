@@ -7,6 +7,9 @@ a guide [here](https://github.com/OpenRA/OpenRA/wiki/Game-Content) on how to ins
 the assets manually, although selecting `Use CD` when you install
 the mods should automatically use the disc contents.
 
+There is also a complete manual install guide
+[here](https://gist.github.com/abcdefg30/a4fe1110c2727c3960e340ae2ce45bc0).
+
 ## Downloading available assets
 - Most of the game files (other than movies) can be downloaded
 straight from within OpenRA itself, so you'd want to install OpenRA first:
@@ -34,10 +37,10 @@ but they are always (unless a portable installation is used)
 contained in a user data folder, not system-wide.
 
 Windows:
-- `%USERPROFILE%\My Documents\OpenRA`
+- `%APPDATA%\OpenRA` (or `%USERPROFILE%\My Documents\OpenRA` if an old installation)
 
 Linux:
-- `~/.openra` or `~/.config/openra` depending on `$XDG_CONFIG_HOME`
+- `~/.config/openra` (or `~/.openra` if an old installation)
 
 Mac OSX:
 - `~/Library/Application Support/OpenRA`
@@ -46,7 +49,12 @@ In a portable installation (Windows), the folder path will be
 `%ProgramFiles%\OpenRA` with a `Support` subfolder instead of `Content`.
 
 The folder you will want when installing assets is the `Content` subfolder,
-this has a folder for each mod (`cnc`, `d2k`, `ra`) with the mod assets contained (`ra` and `d2k` folders additionally have a `v2` folder within).
+this has a folder for each mod (`cnc`, `d2k`, `ra`) with the mod assets
+contained (`ra` and `d2k` folders additionally have a `v2` folder within).
+
+Also, please note that the scripts in this repo use the new Content folder
+location. If you have an old installation path, move/symlink the OpenRA
+folder, or move the files after running a script.
 
 ## Game Movies/Cinematics
 See [Install-Movies/ReadMe.md](Install-Movies#tiberium-dawn)
