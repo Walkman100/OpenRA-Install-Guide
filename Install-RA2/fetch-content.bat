@@ -1,6 +1,6 @@
 @echo off
 REM if download links are broken, see here: http://xwis.net/forums/index.php/topic/177134-downloads/
-set OpenRAContent=%UserProfile%\AppData\Roaming\OpenRA\Content
+set OpenRAContent=%APPDATA%\OpenRA\Content
 set DEST=%OpenRAContent%\ra2
 echo copying to %DEST%...
 

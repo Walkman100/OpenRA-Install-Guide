@@ -1,6 +1,6 @@
 @echo off
 REM if download links are broken, see here: https://gruntmods.com/cutscenes-and-extra-content/
-set OpenRAContent=%UserProfile%\AppData\Roaming\OpenRA\Content
+set OpenRAContent=%APPDATA%\OpenRA\Content
 set DEST=%OpenRAContent%\d2k\v2\Movies
 echo copying to %DEST%...
 

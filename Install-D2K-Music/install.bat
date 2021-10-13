@@ -1,5 +1,5 @@
 @echo off
-set OpenRAContent=%UserProfile%\AppData\Roaming\OpenRA\Content
+set OpenRAContent=%APPDATA%\OpenRA\Content
 set DEST=%OpenRAContent%\d2k\v2
 echo copying to %DEST%...
 
