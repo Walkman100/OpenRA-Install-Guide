@@ -16,7 +16,6 @@ if [ "$CONDITION" == "n" ]; then
     exit
 fi
 
-
 if [ ! -e RACounterstrike.zip ]; then
     wget "https://files.cncnz.com/red_alert/full_game/RACounterstrike.zip"
 fi
@@ -26,4 +25,3 @@ fi
 
 unzip RACounterstrike.zip
 unzip RATheAftermath.zip
-

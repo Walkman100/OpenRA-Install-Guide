@@ -16,10 +16,8 @@ if [ "$CONDITION" == "n" ]; then
     exit
 fi
 
-
 if [ ! -e CovertOps_ISO.zip ]; then
     wget "https://files.cncnz.com/cc1_tiberian_dawn/full_game/CovertOps_ISO.zip"
 fi
 
 unzip CovertOps_ISO.zip
-

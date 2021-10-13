@@ -1,10 +1,10 @@
 #!/usr/bin/env bash
 if [[ -z "${XDG_CONFIG_HOME}" ]]; then
-  DEST="$HOME/.config/openra"
+    OpenRAContent="$HOME/.config/openra/Content"
 else
-  DEST="$HOME/.openra"
+    OpenRAContent="$XDG_CONFIG_HOME/.openra/Content"
 fi
-DEST="${DEST}/Content/d2k/v2"
+DEST="${OpenRAContent}/d2k/v2"
 echo "copying to $DEST..."
 
 mkdir -p "$DEST"
