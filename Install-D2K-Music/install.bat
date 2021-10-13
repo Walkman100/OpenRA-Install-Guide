@@ -1,6 +1,6 @@
 @echo off
-set DEST=%UserProfile%\Documents\OpenRA\Content\d2k\v2
-
+set OpenRAContent=%UserProfile%\AppData\Roaming\OpenRA\Content
+set DEST=%OpenRAContent%\d2k\v2
 echo copying to %DEST%...
 
 mkdir "%DEST%"
